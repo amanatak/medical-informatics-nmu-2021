@@ -1,0 +1,13 @@
+PREFIX : <http://inf.ed.ac.uk/ont#> 
+PREFIX dbp: <http://dbpedia.org/property/> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+
+SELECT ?title 
+WHERE 
+    {
+	?cafe dbp:locatedIn :central .
+	?cafe dc:title ?title .	
+    } 
+
+
+

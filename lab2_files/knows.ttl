@@ -1,0 +1,9 @@
+@prefix : <http://inf.ed.ac.uk/ont#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:stu foaf:knows :bea ;
+     foaf:name "Stuart" .
+:bea foaf:knows :amy ;
+     foaf:name "Beatrice" .
+:amy foaf:name "Amy" .
+
